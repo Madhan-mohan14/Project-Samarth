@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+scipy
+groq
+python-dotenv
+# © 2025 Madhan Mohan | All Rights Reserved.
+# Unauthorized copying, modification, or redistribution of this file, via any medium, is strictly prohibited.
+
