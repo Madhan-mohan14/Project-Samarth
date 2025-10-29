@@ -42,19 +42,6 @@ The system dynamically interprets user questions, queries a pre-processed SQLite
 - **LLM:** Groq API (Llama 3.1 8B Instant)  
 - **Deployment:** Streamlit Cloud  
 
----
-
-
-## 🛠 Local Setup
-
-Clone and run locally:
-
-```bash
-git clone https://github.com/madhan-mohan14/Project-Samarth.git
-cd Project-Samarth
-pip install -r requirements.txt
-streamlit run app.py
-
 ##🧑‍💻 Authorship Note
 
 This repository represents the **authentic and enhanced version** of *Project Samarth*, designed and developed solely by **Madhan Mohan**.  
@@ -77,3 +64,13 @@ View-only access does not grant reuse or replication rights.
 - India Meteorological Department (IMD)  
 - Ministry of Agriculture & Farmers Welfare  
 - Groq API for Llama 3.1 Integration
+
+- ## 🛠 Local Setup
+
+Clone and run locally:
+
+```bash
+git clone https://github.com/madhan-mohan14/Project-Samarth.git
+cd Project-Samarth
+pip install -r requirements.txt
+streamlit run app.py
