@@ -3,9 +3,11 @@ pandas
 numpy
 scipy
 groq
+matplotlib==3.9.2
 python-dotenv
 # © 2025 Madhan Mohan | All Rights Reserved.
 # Unauthorized copying, modification, or redistribution of this file, via any medium, is strictly prohibited.
+
 
 
 
