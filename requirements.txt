@@ -1,29 +1,11 @@
-# Core Python libraries
-pandas==2.2.2
-numpy==1.26.4
-scipy==1.13.1
-
-# Database
-sqlite-utils==3.36
-sqlalchemy==2.0.32
-
-# Web app / UI
-streamlit==1.38.0
-matplotlib==3.9.2
-
-# LLM / Groq API
-groq==0.4.2
-python-dotenv==1.0.1
-requests==2.32.3
-
-# Data parsing / utilities
-tqdm==4.66.4
-openpyxl==3.1.5
-
-# Optional for local CSV/Excel handling
-xlrd==2.0.1
-
+streamlit
+pandas
+numpy
+scipy
+groq
+python-dotenv
 # © 2025 Madhan Mohan | All Rights Reserved.
 # Unauthorized copying, modification, or redistribution of this file, via any medium, is strictly prohibited.
+
 
 
