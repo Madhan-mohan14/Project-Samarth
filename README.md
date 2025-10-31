@@ -65,6 +65,9 @@ View-only access does not grant reuse or replication rights.
 - Ministry of Agriculture & Farmers Welfare  
 - Groq API for Llama 3.1 Integration
 
+## Links
+Demo Video: https://drive.google.com/drive/folders/1yXIh_SZUQ89EhYe_bq5xO59pptYojNUR?usp=sharing
+Live App: https://project-samarth14.streamlit.app
 - ## 🛠 Local Setup
 
 Clone and run locally:
