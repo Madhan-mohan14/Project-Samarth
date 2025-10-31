@@ -67,6 +67,7 @@ View-only access does not grant reuse or replication rights.
 
 ## Links
 Demo Video: https://drive.google.com/drive/folders/1yXIh_SZUQ89EhYe_bq5xO59pptYojNUR?usp=sharing
+
 Live App: https://project-samarth14.streamlit.app
 - ## 🛠 Local Setup
 
