@@ -71,16 +71,22 @@ View-only access does not grant reuse or replication rights.
 
 ## Limitations
 Static Data: The prototype runs on downloaded CSVs (Rainfall 1901-2015, Crops 2009-2015). It does not use a live API, as the required links were unreliable and broken 
+
 Data Mismatch: Rainfall is approximated by averaging 'Subdivisions' to match 'States', which is not perfectly accurate.
+
 Simple Analysis: The bot can retrieve and compare data (e.g., "Top 3", "more/less") but cannot yet perform complex statistical analysis like correlation because of limit of data .
+
 Source Data "Noise": The crop data includes summary categories (e.g., "Total Food Grains"). The bot correctly reports these as "top crops" because their production value is highest in the file.
 
 ---
 
 ## Future Insights
 Hybrid Data Pipeline: Implement a system that tries to hit a live API first, but falls back to the local SQLite database if the API fails, ensuring high availability.
+
 Advanced Tools: Add more Python tools for statistical analysis (e.g., calculate_correlation) that the LLM can use.
+
 Smarter Synthesis: Use a more powerful model (like Gemini 1.5 Pro) to have the LLM, rather than the tools, write the final synthesized answer.
+
 Integrate More Data: Add more datasets (e.g., district-level rainfall, fertilizer usage) to answer deeper policy questions.
 
 ---
