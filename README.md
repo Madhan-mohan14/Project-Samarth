@@ -40,9 +40,11 @@ The system dynamically interprets user questions, queries a pre-processed SQLite
 - **Data Processing:** Pandas, NumPy  
 - **Statistical Analysis:** SciPy  
 - **LLM:** Groq API (Llama 3.1 8B Instant)  
-- **Deployment:** Streamlit Cloud  
+- **Deployment:** Streamlit Cloud
+ 
+---
 
-##🧑‍💻 Authorship Note
+## 🧑‍💻 Authorship Note
 
 This repository represents the **authentic and enhanced version** of *Project Samarth*, designed and developed solely by **Madhan Mohan**.  
 Earlier versions were shared privately for feedback and subsequently misused without authorization.  
@@ -64,6 +66,24 @@ View-only access does not grant reuse or replication rights.
 - India Meteorological Department (IMD)  
 - Ministry of Agriculture & Farmers Welfare  
 - Groq API for Llama 3.1 Integration
+
+---
+
+## Limitations
+Static Data: The prototype runs on downloaded CSVs (Rainfall 1901-2015, Crops 2009-2015). It does not use a live API, as the required links were unreliable and broken 
+Data Mismatch: Rainfall is approximated by averaging 'Subdivisions' to match 'States', which is not perfectly accurate.
+Simple Analysis: The bot can retrieve and compare data (e.g., "Top 3", "more/less") but cannot yet perform complex statistical analysis like correlation because of limit of data .
+Source Data "Noise": The crop data includes summary categories (e.g., "Total Food Grains"). The bot correctly reports these as "top crops" because their production value is highest in the file.
+
+---
+
+## Future Insights
+Hybrid Data Pipeline: Implement a system that tries to hit a live API first, but falls back to the local SQLite database if the API fails, ensuring high availability.
+Advanced Tools: Add more Python tools for statistical analysis (e.g., calculate_correlation) that the LLM can use.
+Smarter Synthesis: Use a more powerful model (like Gemini 1.5 Pro) to have the LLM, rather than the tools, write the final synthesized answer.
+Integrate More Data: Add more datasets (e.g., district-level rainfall, fertilizer usage) to answer deeper policy questions.
+
+---
 
 ## Links
 Demo Video: https://drive.google.com/drive/folders/1yXIh_SZUQ89EhYe_bq5xO59pptYojNUR?usp=sharing
